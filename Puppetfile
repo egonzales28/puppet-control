@@ -28,12 +28,12 @@ mod 'ntp',
   :git    => 'https://github.com/egonzales28/puppethome-ntp.git',
   :branch => 'master'
 
-mod 'profile',
-  :git    => 'https://github.com/egonzales28/puppethome-profile.git',
-  :branch => 'master'
+#mod 'profile',
+#  :git    => 'https://github.com/egonzales28/puppethome-profile.git',
+#  :branch => 'master'
 
-mod 'role',
-  :git    => 'https://github.com/egonzales28/puppethome-role.git',
-  :branch => 'master'
+#mod 'role',
+#  :git    => 'https://github.com/egonzales28/puppethome-role.git',
+#  :branch => 'master'
 
 
