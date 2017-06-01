@@ -32,8 +32,8 @@ mod 'profile',
   :git    => 'https://github.com/egonzales28/puppet-profile.git',
   :branch => 'master'
 
-#mod 'role',
-#  :git    => 'https://github.com/egonzales28/puppet-role.git',
-#  :branch => 'master'
+mod 'role',
+  :git    => 'https://github.com/egonzales28/puppet-role.git',
+  :branch => 'master'
 
 
