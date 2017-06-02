@@ -31,10 +31,10 @@ mod 'ntp',
 
 mod 'profile',
   :git    => 'https://github.com/egonzales28/puppet-profile.git',
-  :branch => 'development'
+  :branch => 'master'
 
 mod 'role',
   :git    => 'https://github.com/egonzales28/puppet-role.git',
-  :branch => 'development'
+  :branch => 'master'
 
 
