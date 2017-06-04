@@ -17,7 +17,7 @@ mod "garethr/docker",      '5.3.0'
 
 mod 'apache',
   :git    => 'https://github.com/egonzales28/puppet-apache',
-  :branch => 'docs_experiment'
+  :branch => 'master'
 
 
 mod 'ssh',
