@@ -1,5 +1,5 @@
 ---
-profile::nginx::vhost {
+profile::nginx::vhosts: 
 
  - 'fqdn': 'eeerick.node.com'
    'port': 80
@@ -7,11 +7,6 @@ profile::nginx::vhost {
  - 'fqdn': 'eeerickb.node.com'
    'port': 80
    'server_aliases': 'eeerickb.node.com'   
-
-}
-
-
-
 
 profile::apache::apache_vhost_servers: {
   'eeerick.node.com': {
