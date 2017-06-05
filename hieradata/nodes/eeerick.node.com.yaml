@@ -9,7 +9,7 @@ profile::nginx::vhosts:
    'server_aliases': 'eeerickb.node.com'   
 
 classes:
- - profile:nginx
+ - profile::nginx
 
 profile::apache::apache_vhost_servers: {
   'eeerick.node.com': {
