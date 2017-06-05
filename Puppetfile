@@ -37,4 +37,6 @@ mod 'role',
   :git    => 'https://github.com/egonzales28/puppet-role.git',
   :branch => 'master'
 
-
+mod 'nginx'
+  :git    => 'https://github.com/egonzales28/puppet-nginx.git',
+  :branch => 'master'
