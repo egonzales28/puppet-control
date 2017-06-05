@@ -37,6 +37,7 @@ node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
+  hiera_include('classes')
   $test_top_scope = "a node scope var"
   $node_scope_var = "Node scope"
   notify { "test top scope": 

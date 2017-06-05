@@ -8,6 +8,9 @@ profile::nginx::vhosts:
    'port': 80
    'server_aliases': 'eeerickb.node.com'   
 
+classes:
+ - profile:nginx
+
 profile::apache::apache_vhost_servers: {
   'eeerick.node.com': {
     port: 80,
