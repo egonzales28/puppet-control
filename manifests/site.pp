@@ -28,10 +28,10 @@ File { backup => false }
   #   class { 'my_class': }
   $test_top_scope = "This is a top scope var"
 
-node 'eeerick.node.com' {
-  notify { 'Hello how are you?': }
+#node 'eeerick.node.com' {
+#  notify { 'Hello how are you?': }
 #  class { 'java': }
-}
+#}
 
 node default {
   # This is where you can declare classes for all nodes.
